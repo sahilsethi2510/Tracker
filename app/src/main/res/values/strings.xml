@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Locator</string>
+    <string name="title_activity_google__map">Map</string>
+    <string name="title_update_location_service">update_location</string>
+
+
+    <!--  Login id and Register id Activity-->
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</string>
+    <string name="register_btn">Register User…</string>
+
+    <!--  Login id Activity-->
+    <string name="login_log_in_btn">LOG IN</string>
+
+
+    <!--  Register  Activity-->
+    <string name="register_hint_username">Username</string>
+
+
+
+    <!--  Channel id Activity-->
+    <string name="Channel_id_hint">Channel Id</string>
+    <string name="Channel_id_trace_btn">TRACE</string>
+    <string name="Channel_id_locate_btn">LOCATE</string>
+
+</resources>

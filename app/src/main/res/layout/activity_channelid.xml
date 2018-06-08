@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.medell.locator.Channelid"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/login_app_icon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/icon_top_margin"
+        android:src="@drawable/app_logo" />
+
+    <LinearLayout
+        android:id="@+id/channel_id_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_app_icon"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/icon_top_margin"
+        android:background="@drawable/input_background"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/channel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/input_text_padding"
+        android:hint="@string/Channel_id_hint"
+        android:textSize="@dimen/input_text_size"
+        android:inputType="text"
+        android:drawablePadding="@dimen/input_text_padding"
+        android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/channel_id_locate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/channel_id_details_layout"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/btn_margin"
+        android:background="@drawable/btn_background"
+        android:text="@string/Channel_id_locate_btn"
+        android:textColor="@android:color/white"
+        android:onClick="Locate"/>
+
+
+        <Button
+            android:id="@+id/channel_id_trace_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/channel_id_locate_btn"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/btn_margin"
+            android:background="@drawable/btn_background"
+            android:text="@string/Channel_id_trace_btn"
+            android:textColor="@android:color/white"
+            android:onClick="Trace"/>
+
+
+</RelativeLayout>
